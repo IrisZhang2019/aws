@@ -1,1 +1,2 @@
-# aws
+# AWS
+random notes on learning AWS
