@@ -26,7 +26,10 @@ subnets主要用determine access to gateways，ingress/egress
 - 选择VPC
 - 建立后添加Destination到0.0.0.0，target为VPC，允许外部访问
 - 之后添加subnet的association
-（Q：不是太懂route table）
+
+Q. route table的target和destination都是什么？
+
+> For those traffic heading to this destination (i.e 0.0.0.0/0, CIDR block), please direct it to this target (e.g. Internet Gateway/NAT Instance).
 
 最后在subnet里面放个EC2
 
